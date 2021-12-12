@@ -1,0 +1,58 @@
+.main {
+    height: 100vh;
+    /* background-color: yellow; */
+}
+.main_table {
+    border: 1px solid rgb(209, 203, 203);
+}
+.table_head{
+    border-bottom-style: hidden;
+}
+.table_head tr th {
+    height: 40px;
+    padding-bottom: 10px;
+}
+.table_body {
+    margin-top: 20px;
+}
+.table_body tr td{
+    height: 50px;
+}
+.cols {
+    margin-top: 8px;
+}
+.avatar_icon {
+    background-color: rgba(212, 208, 208, 0.753);
+    border-radius: 50%;
+    color: rgb(170, 164, 164);
+}
+
+.dropdown {
+    margin-top: -5px;
+}
+.dropdown::after {
+    content: none;
+}
+.dropdown {
+    box-shadow: unset !important;
+}
+.dropdown_menu {
+    margin-right: 28px !important;
+    margin-top: -30px !important;
+    min-width: 7rem !important;
+    border: 0 !important;
+    box-shadow: 3px 2px 10px 0px rgba(0,0,0,0.22);
+}
+.dropdown_item {
+    border: 0;
+    padding-left: 18px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    text-align: start;
+    background-color: transparent;
+    width: 100%;
+    color: rgba(92, 88, 88, 0.867);
+}
+.dropdown_item:hover {
+    background-color: #eeeeee;
+}
